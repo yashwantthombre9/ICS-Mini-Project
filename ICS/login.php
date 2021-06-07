@@ -1,4 +1,21 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			font-size: 50px;
+			color: white;
+			padding: 100px;
+		}
+	</style>
+</head>
+<body bgcolor="green">
+
 <?php
+
 $username = $_POST['username'];
 $password = $_POST['password'];
 
@@ -53,3 +70,6 @@ insertData();
 
 ?>
 
+
+</body>
+</html>
